@@ -1,13 +1,13 @@
 {
-	"name": "cosmonaut",
+  "name": "cosmonaut",
   "version": "0.0.1",
-  "description": "browser based game engine build on threejs",
-  "author": "dropdownmenu",
-  "licence": "MIT",
-  "dependancies": {
-    "three": "0.55.x"
-  },
-  "devDependancies": {
-
+  "private": true,
+  "dependencies": {
+    "express": "3.1.x",
+    "jade": "*",
+    "stylus": "*",
+    "cosmonaut-harness": "*",
+    "cosmonaut-rocket": "*",
+    "cosmonaut-launchpad": "*"
   }
 }
