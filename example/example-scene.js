@@ -24,6 +24,9 @@ var time = 0;
 scene.on('prerender', function() {
   time++;
   sphere.scale(Math.cos(time/100), Math.sin(time/100), Math.cos(time/100) * Math.sin(time/100));
+  scene.camera.move(Math.cos(time/50), Math.sin(time/50), Math.cos(time/50) * Math.sin(time/50));
 });
+
+scene.camera.set('lookAtObject', sphere);
 
 scene.startRenderLoop();
