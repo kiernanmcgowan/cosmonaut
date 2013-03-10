@@ -7,7 +7,6 @@
     "jade": "*",
     "stylus": "*",
     "cosmonaut-harness": "*",
-    "cosmonaut-rocket": "*",
     "cosmonaut-launchpad": "*"
   }
 }
